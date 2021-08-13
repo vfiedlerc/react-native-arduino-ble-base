@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bleproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:9:5-44
+8        android:minSdkVersion="18"
+8-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:9:15-41
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:3:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:4:5-73
+13-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:4:22-71
+14
+15    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:5:5-85
+15-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:5:29-83
+16
+17    <uses-feature
+17-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:7:5-89
+18        android:name="android.hardware.bluetooth_le"
+18-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:7:19-63
+19        android:required="true" />
+19-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:7:64-87
+20
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:6:5-80
+21-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:6:22-78
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:8:5-67
+22-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:8:22-64
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Vinicius\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Vinicius\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
+24
+25    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->[com.github.Polidea:MultiPlatformBleAdapter:0.1.7] C:\Users\Vinicius\.gradle\caches\transforms-2\files-2.1\5e15cabb42178756e30d21f689d09aa5\jetified-MultiPlatformBleAdapter-0.1.7\AndroidManifest.xml:14:5-88
+25-->[com.github.Polidea:MultiPlatformBleAdapter:0.1.7] C:\Users\Vinicius\.gradle\caches\transforms-2\files-2.1\5e15cabb42178756e30d21f689d09aa5\jetified-MultiPlatformBleAdapter-0.1.7\AndroidManifest.xml:14:29-85
+26
+27    <application
+27-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:11:5-30:19
+28        android:name="com.bleproject.MainApplication"
+28-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:12:7-38
+29        android:allowBackup="false"
+29-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:16:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\Vinicius\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:14:7-41
+33        android:label="@string/app_name"
+33-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:13:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:15:7-52
+35        android:theme="@style/AppTheme"
+35-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:17:7-38
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\debug\AndroidManifest.xml:11:18-53
+37        <activity
+37-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:18:7-28:18
+38            android:name="com.bleproject.MainActivity"
+38-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:19:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+39-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:21:9-86
+40            android:label="@string/app_name"
+40-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:20:9-41
+41            android:launchMode="singleTask"
+41-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:22:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:23:9-51
+43            <intent-filter>
+43-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:24:9-27:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:25:13-65
+44-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:25:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:26:13-73
+46-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:26:23-70
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+49-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:29:7-84
+49-->C:\Users\Vinicius\Desktop\react-native-arduino-ble-base\android\app\src\main\AndroidManifest.xml:29:17-81
+50    </application>
+51
+52</manifest>
